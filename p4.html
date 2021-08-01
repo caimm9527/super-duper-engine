@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // var a = 123;
+        // var b = a.toString();
+        // console.log(typeof a);
+        // console.log(a)
+        // console.log(typeof b);
+        // console.log(b)
+        // var str = 
+        // `锄禾日当午, \n汗滴禾下土,\n谁知盘中餐,\n粒粒皆辛苦.`;
+        // console.log(str)
+        
+        // var abc = Symbol();
+        // console.log(abc ,typeof abc)
+        // const xi = ['tang','wu','ba','sha'];
+        // let iterator = xi[Symbol.iterator]();
+        // console.log(iterator.next());
+        // console.log(iterator.next());
+        // console.log(iterator.next());
+        // console.log(iterator.next());
+        // console.log(iterator.next());
+
+        var a = new Set([1,2,4,5]);
+        var b = new Set([8,2,48,5]);
+        var intersect = new Set([...a].filter(x =>b.has(x)));
+        console.log([...intersect]);
+
+    </script>
+</body>
+</html>
